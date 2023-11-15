@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #DE96F3;
+}
+
+.contenedor-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.contenedor-formulario{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: grid;
+    place-items: center;
+    background-color: aliceblue;
+    width: 300px;
+    height: 120px;   
+    padding: 20px;
+    border-radius: 7px;
+}
+
+
+#nombreEvento, #fechaEvento{
+    width: 250px;
+    height: 25px;
+    border-radius: 6px;
+    border: 2px solid  #DE96F3;
+    background-color: aliceblue;
+}
+
+#agregar{
+    width: 255px;
+    height: 40px;
+    border-radius: 18px;
+    border: none;
+}
+
+.contenedor-lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.listaEventos2{
+    background-color: aliceblue;
+    width: 700px;
+    min-height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.evento{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    border: 2px solid #DE96F3;
+    border-radius: 14px;
+    height: 100px;
+    margin-top: 9px;
+}
+
+.dias{
+    background-color: aliceblue;
+}
+
+.diasFaltantes{
+    display: block;
+    background-color: aliceblue;
+    font-size: 30px;
+    font-weight: 700;
+    color: green;
+}
+
+.texto{
+    background-color: aliceblue;
+    display: block;
+    margin-top: auto;
+    width: 20px;
+}
+
+.nombreEvento{
+    background-color: aliceblue;
+    font-size: 25px;
+    font-weight: 500;
+    width: 80px; 
+    white-space: nowrap; 
+    overflow-x: auto;
+}
+
+.fechaEvento{
+    background-color: aliceblue;
+}
+
+.acciones{
+    background-color: aliceblue;
+
+}
+
+.eliminar{
+    background-color: #91D657;
+    width: 90px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.eliminar:hover{
+    background-color: red;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.enlace{
+    bottom: 0;
+}
